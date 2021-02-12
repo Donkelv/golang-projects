@@ -10,6 +10,9 @@ func main(){
 	fmt.Println("Hy my first golang program!")
 	//using go's import statement
 	fmt.Println(t.Now())
+	//go formatting
+	fmt.Printf("Number: %T,%v", 100, 100)
+	fmt.Printf("Boolean check: %t", true)
 
 }
 
