@@ -12,7 +12,8 @@ func main(){
 	fmt.Println(t.Now())
 	//go formatting
 	fmt.Printf("Number: %T,%v", 100, 100)
-	fmt.Printf("Boolean check: %t", true)
+	//binary formatting
+	fmt.Printf("Binary formatting: %b", 3435)	
 
 }
 
